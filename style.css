@@ -138,18 +138,16 @@ header .follow a:hover{
     color:var(--main-color);
 }
 
-/* #menu-bars{
+
+#menu-bars{
     position: fixed;
-    top:1rem; right: 1rem;
-    z-index: 10000;
-    background:var(--main-color);
-    color:#fff;
-    border-radius: .5rem;
-    padding:1rem 1.5rem;
+    top: 1rem;
+    right: 1rem;
+    z-index: 100;
+    color: var(--main-color);
     font-size: 3rem;
-    cursor:pointer;
     display: none;
-} */
+}
 
 
 
