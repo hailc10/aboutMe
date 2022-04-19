@@ -4,8 +4,11 @@
         margin: 0;
     }
     .home{
-        align-items: center;
-        justify-content: center;
+        display: block;
+        width: 100%;
+        padding: 0;
+        /* margin: 0.5rem 1rem; */
+        margin: auto;
     }
     .home .content{
         margin: 0 1rem;
@@ -22,7 +25,7 @@
         display: none;
     }
     .home .image{
-        /* margin: auto; */
+        margin: auto;
         object-fit: cover;
         width: 30rem;
         height: 30rem;
@@ -56,7 +59,6 @@
         display: block;
         width: 100%;
         padding: 0;
-        /* margin: 0.5rem 1rem; */
         margin: auto;
     }
     .home .content{
