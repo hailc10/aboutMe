@@ -151,6 +151,11 @@ header .follow a:hover{
     height: 50px;
     background-color: #d7c2fd;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+#menu-bars:hover{
+    background-color: #c0b6d3;
 }
 
 #menu-bars i{
