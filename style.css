@@ -125,6 +125,8 @@ header .navbar a{
 header .navbar a:hover{
     letter-spacing: .2rem;
     color:var(--main-color);
+    background-color: #9bbcd8;
+    border-radius: 3px;
 }
 
 header .follow a{
@@ -312,10 +314,12 @@ header .follow a:hover{
     height:100%;
     background:var(--main-color);
     border-radius: 50rem;
+    animation: skillShow linear 2s;
 }
 
 .about .row-2 .skills .progress:nth-child(1) .bar span{
     width:80%;
+
 }
 
 .about .row-2 .skills .progress:nth-child(2) .bar span{
@@ -605,6 +609,19 @@ header .follow a:hover{
 .contact .row form .btn{
     margin-top: 0;
     margin-bottom: 1.5rem;
+}
+
+@keyframes skillShow{
+    from {
+        margin-left: -100%;
+      }
+    
+    75% {
+        margin-left: -25%;
+    }
+    to {
+        margin-left: 0%;
+    }
 }
 
 
